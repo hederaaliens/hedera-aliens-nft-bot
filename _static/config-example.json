@@ -1,0 +1,19 @@
+{
+  "token": "secret-token-id-obtained-from-discord-developer-site",
+  "clientId": "client-id-obtained-from-discord-developer-site (numeric)",
+  "guildId": "your-discord-server-id (numeric)",
+  "hederaRestApiUrl": "https://mainnet-public.mirrornode.hedera.com",
+  "validationWalletId": "0.0.YOUR-VERIFICATION-WALLET-ID",
+  "verifiedWalletRoleName": "Verified Wallet",
+  "sqliteDbPath": "~/hedera-discord-bot/_static/nft.db",
+  "tokenIdToDiscordRoles": [
+    {
+      "tokenId": "0.0.YOURTOKENID1",
+      "discordRole": "Collection Pass Holder"
+    },
+    {
+      "tokenId": "0.0.YOURTOKENID2",
+      "discordRole": "Main Collection NFT Holder"
+    }
+  ]
+}

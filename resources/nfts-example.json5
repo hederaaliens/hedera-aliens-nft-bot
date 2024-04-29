@@ -1,0 +1,20 @@
+[
+  {
+    "serial": 14,
+    "name": "Cosmo Joe",
+    "rank": 1,
+    "traits": '[{"trait_type":"Eyes","value":"Orange","occurrence":0.12},{"trait_type":"Background","value":"Space 3","occurrence":0.05},{"trait_type":"Eye Balls","value":"Half Eyes","occurrence":0.04},{"trait_type":"Extras","value":"None","occurrence":0.8},{"trait_type":"Hand","value":"Special Agent","occurrence":0.03},{"trait_type":"Moustache","value":"Style 1","occurrence":0.08},{"trait_type":"Skin Tone","value":"Base Blue","occurrence":0.34},{"trait_type":"Background Decoration","value":"GM","occurrence":0.04},{"trait_type":"Mouth","value":"Talking","occurrence":0.09},{"trait_type":"Headwear","value":"Snapback","occurrence":0.07},{"trait_type":"Clothes","value":"Space Suit","occurrence":0.12},{"trait_type":"Glasses","value":"None","occurrence":0.98},{"trait_type":"Tribe","value":"Infinis","occurrence":0.64},{"trait_type":"Eyebrows","value":"Angry","occurrence":0.07},{"trait_type":"Special Feature","value":"Animation Glitch","occurrence":0.01}]'
+  },
+  {
+    "serial": 92,
+    "name": "Marvin the Koalien",
+    "rank": 2,
+    "traits": '[{"trait_type":"Eyes","value":"Gravitational Lens","occurrence":0.32},{"trait_type":"Background","value":"Space 1","occurrence":0.12},{"trait_type":"Eye Balls","value":"Looking Up","occurrence":0.06},{"trait_type":"Extras","value":"Koala Nose","occurrence":0.03},{"trait_type":"Hand","value":"Sprout","occurrence":0.06},{"trait_type":"Moustache","value":"None","occurrence":0.81},{"trait_type":"Skin Tone","value":"Dark Green","occurrence":0.26},{"trait_type":"Background Decoration","value":"None","occurrence":0.95},{"trait_type":"Mouth","value":"Surprised","occurrence":0.01},{"trait_type":"Headwear","value":"Koala Ears","occurrence":0.04},{"trait_type":"Clothes","value":"Bear Costume","occurrence":0.04},{"trait_type":"Glasses","value":"None","occurrence":0.98},{"trait_type":"Tribe","value":"None","occurrence":0.04},{"trait_type":"Eyebrows","value":"Normal","occurrence":0.05},{"trait_type":"Special Feature","value":"Koala Klub","occurrence":0.03}]'
+  },
+  {
+    "serial": 61,
+    "name": "Cosmox",
+    "rank": 3,
+    "traits": '[{"trait_type":"Eyes","value":"Gravitational Lens","occurrence":0.32},{"trait_type":"Background","value":"The Infernals Purple","occurrence":0.02},{"trait_type":"Eye Balls","value":"Dizzy","occurrence":0.05},{"trait_type":"Extras","value":"Crack","occurrence":0.05},{"trait_type":"Hand","value":"Meat Cleaver","occurrence":0.04},{"trait_type":"Moustache","value":"None","occurrence":0.81},{"trait_type":"Skin Tone","value":"Base Blue","occurrence":0.34},{"trait_type":"Background Decoration","value":"GM","occurrence":0.04},{"trait_type":"Mouth","value":"Cigar","occurrence":0.03},{"trait_type":"Headwear","value":"None","occurrence":0.27},{"trait_type":"Clothes","value":"Crew","occurrence":0.08},{"trait_type":"Glasses","value":"None","occurrence":0.98},{"trait_type":"Tribe","value":"Marble","occurrence":0.04},{"trait_type":"Eyebrows","value":"Intrigued","occurrence":0.07},{"trait_type":"Special Feature","value":"None","occurrence":0.91}]'
+  }
+]

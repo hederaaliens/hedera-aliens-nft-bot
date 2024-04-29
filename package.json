@@ -1,0 +1,22 @@
+{
+  "name": "hedera-discord-bot",
+  "version": "1.0.0",
+  "description": "Hedera Aliens Discord Bot",
+  "main": "hedera-nft-bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FreeTheIceCubes",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.4",
+    "discord.js": "^14.14.1",
+    "node-cron": "^3.0.3",
+    "require-json5": "^1.3.0",
+    "sanitize": "^2.1.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
