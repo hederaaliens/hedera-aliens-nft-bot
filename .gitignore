@@ -1,11 +1,11 @@
 .idea
 node_modules
-./_static/config.json
-./_static/nft.db
+_static/config.json
+_static/nft.db
 hedera-discord-bot.iml
-./resources/nfts.json5
-./resources/images/collection/
-./resources/images/gm/
+resources/nfts.json5
+resources/images/collection/
+resources/images/gm/
 .DS_Store
 
 
