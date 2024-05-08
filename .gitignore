@@ -4,8 +4,8 @@ _static/config.json
 _static/nft.db
 hedera-discord-bot.iml
 resources/nfts.json5
-resources/images/collection/*
-resources/images/gm/*
+resources/images/collection/*.png
+resources/images/gm/*.png
 .DS_Store
 
 
