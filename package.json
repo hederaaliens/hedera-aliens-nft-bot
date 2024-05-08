@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "FreeTheIceCubes",
-  "license": "ISC",
+  "license": "Apache 2.0",
   "dependencies": {
     "axios": "^1.6.4",
     "discord.js": "^14.14.1",
