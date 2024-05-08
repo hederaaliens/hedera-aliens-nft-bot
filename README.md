@@ -11,7 +11,9 @@ Once the transaction is made, users can verify their wallet using command: `/ver
 The interaction with the bot is private. Only the interacting user will see the commands and replies, therefore, verification can be made in any channel.
 
 Currently, the verification is a **one-time** event and the bot does not check whether the token id is still present in users' wallet afterward, unless they manually re-verify their wallet. The continuous role eligibility check is a [future improvement](#further-improvements-proposals).
-The bot checks last 12 transactions in users' wallet for wallet verification.
+The bot checks last 12 transactions in users' wallet for verification.
+
+You can configure the bot to assign different token roles based on token id.
 
 <img src="readme-images/discord-username.png" alt="How to find discord username" width="300"/>
 
@@ -19,7 +21,7 @@ The bot checks last 12 transactions in users' wallet for wallet verification.
 
 ### NFT look up
 Look up information about an NFT directly through the bot. The bot replies with an embed with information such as:
-  - name, rank, traits and their distribution, an image of the NFT
+  - name, rank, traits and their distribution, image of the NFT
 
 The NFTs can be looked up using either **serial id** (`/nft serial serial:123`) or **name** (`/nft name name:name-of-the-nft`).
 
@@ -76,7 +78,7 @@ The format for the JSON5 file is:
 - `serial`: (numeric) serial id of the NFT.
 - `name`: (string) name of the NFT.
 - `rank`: (numeric) rank within the collection #1 being the rarest.
-- `traits`: (string) stringified JSON list of following: 
+- `traits`: (string) stringifed JSON list of following: 
   - `trait_type`: (string) name of the trait
   - `value`: (string) value of the trait
   - `occurence`: (decimal) percentage of trait occurrence in the collection in decimal form (0–1).
@@ -99,13 +101,14 @@ The format for the JSON5 file is:
 ]
 ```
 
-The bot **does not** fetch NFT images from the IPFS, and you need to provide the images locally on the filesystem. 
-The location for the images on the filesystem is in: `./resouces/collection` folder. 
+The bot **does not** fetch NFT images from the IPFS, the images need to be provided locally on the filesystem. 
+The location for the images on the filesystem is in: `./resouces/collection` folder.
+
 The name of the files must match the serial id of the NFTs. For example, for serial number #1 the file needs to be named: 1.png or 0001.png. Leading zeros are acceptable. The bot currently expects only .png files.
 
 ### Running the bot
 On an environment with nodejs installed, use the following commands to run the bot:
-- `node deploy-commands.js` Register the commands that provides with Discord API.
+- `node deploy-commands.js` Register the commands that the bot provides with Discord API.
 - `node hedera-nft-bot.js` Run the bot.
 
 We highly recommend using [pm2 process manager](https://pm2.keymetrics.io) for nodejs to run the bot and keeping it online.
