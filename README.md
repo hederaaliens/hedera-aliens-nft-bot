@@ -106,6 +106,10 @@ The location for the images on the filesystem is in: `./resouces/collection` fol
 
 The name of the files must match the serial id of the NFTs. For example, for serial number #1 the file needs to be named: 1.png or 0001.png. Leading zeros are acceptable. The bot currently expects only .png files.
 
+### GM function
+The images for the GM functions are located on local filesystem in: `./resouces/gm`. Files need to be in .png format and numbered such as 1.png, 2.png and so on.
+Currently, there's a limitation of 6 GM images, that is bound to be changed in future update.
+
 ### Running the bot
 On an environment with nodejs installed, use the following commands to run the bot:
 - `node deploy-commands.js` Register the commands that the bot provides with Discord API.
