@@ -131,5 +131,10 @@ Please be aware of the current limitations of the Hedera Aliens Discord bot, we 
 - Fetching NFT and caching information about the NFT collection directly from Hedera network and IPFS/Hashnials.
 - Automated calculation of rarity score and trait distribution
 
+## Contact
+For contact, please head over to our Discord server. Please note we are doing this in our free time, and we may not be available for response at all times.
+
+https://discord.com/invite/atsTv7dcZy
+
 ## License
 The source files in this repository are made available under the [Apache License Version 2.0](./LICENSE.md).
